@@ -4,12 +4,12 @@ Simulateur réseau **hors ligne** pour l'enseignement, dans l'esprit de Packet T
 schéma logique et physique, configuration d'équipements, terminal en ligne de commande, paquets animés, exercices.
 Pensé pour les étudiants **TSR (bac+2)** et **ASR (bac+3)**.
 
-> Windows (version portable, aucune installation)
+> Version **2.12** · Windows (version portable, aucune installation)
 > Usage pédagogique — voir [LICENCE.md](LICENCE.md)
 
 ## Télécharger
 
-Récupérez le fichier **`NetStudio <version>.exe`** dans la section
+Récupérez le fichier **`NetStudio 2.12.0.exe`** dans la section
 **Releases** de ce dépôt (ou à l'emplacement indiqué par votre enseignant).
 
 > Le nom exact du fichier suit la version : `NetStudio <version>.exe`.
@@ -41,15 +41,24 @@ administrateur.
 - **Paquets animés** : visualisation d'un ping saut après saut.
 - **Supervision** et **Problèmes** : test de joignabilité et contrôle automatique des erreurs de configuration.
 - **Exemples et exercices** : schémas corrigés ou à valider, avec missions et objectifs.
+- **Fichier lié** : enregistrement dans un fichier précis (Ctrl+S), Enregistrer sous (Ctrl+Maj+S), Ouvrir (Ctrl+O).
 - Annuler / rétablir, barre d'outils flottante, thèmes clair, sombre et contraste élevé, impression.
 
 ## Vos données
 
 - L'application fonctionne **entièrement sur votre poste** : aucune donnée
   n'est envoyée sur Internet, aucun compte, aucun traceur.
-- **Enregistrez régulièrement** vos schémas en fichier (`Fichier → Enregistrer`,
-  Ctrl+S) pour en garder une copie et pouvoir les rouvrir sur un autre poste.
-  Un schéma non enregistré est perdu à la fermeture de l'application.
+- **Fichier lié** : `Fichier → Enregistrer` (Ctrl+S) écrit dans le fichier ouvert ;
+  la première fois, ou avec `Enregistrer sous…` (Ctrl+Maj+S), une fenêtre vous demande où le placer.
+  `Fichier → Ouvrir…` (Ctrl+O) rouvre un schéma.
+- Le nom du fichier s'affiche dans l'en-tête, avec un point **orange** tant que des
+  modifications ne sont pas enregistrées (vert quand tout est enregistré).
+- À la fermeture, l'application propose d'enregistrer s'il reste des modifications.
+- Au démarrage, le **dernier fichier** utilisé est rouvert.
+- Option **Enregistrement automatique** (menu Fichier) : écrit dans le fichier après chaque modification.
+- Si le fichier a été modifié ailleurs (autre fenêtre, synchronisation…), l'application vous
+  le signale avant d'écraser.
+- **Enregistrez régulièrement** vos schémas pour pouvoir les rouvrir sur un autre poste.
 
 ## Questions fréquentes
 
@@ -58,7 +67,7 @@ Vérifiez que Windows ne bloque pas le fichier : clic droit sur le `.exe` →
 *Propriétés* → cochez **Débloquer** si la case est présente.
 
 **Je change de poste, comment retrouver mes schémas ?**
-Enregistrez-les en fichier et rouvrez-les sur l'autre poste (`Fichier → Ouvrir`).
+Enregistrez-les en fichier (clé USB, OneDrive…) et rouvrez-les sur l'autre poste (`Fichier → Ouvrir…`, Ctrl+O).
 
 **Puis-je en donner une copie à un camarade ?**
 Non : la redistribution n'est pas autorisée sans accord de l'auteur. Indiquez
