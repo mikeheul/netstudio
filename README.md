@@ -7,8 +7,6 @@ Pensé pour les étudiants **TSR (bac+2)** et **ASR (bac+3)**.
 > Version **2.13** · Windows (version portable, aucune installation)
 > Usage pédagogique — voir [LICENCE.md](LICENCE.md)
 
-![Icône de NetStudio](icon.svg)
-
 ## Télécharger
 
 Récupérez le fichier **`NetStudio 2.13.0.exe`** dans la section
