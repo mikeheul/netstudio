@@ -4,12 +4,14 @@ Simulateur réseau **hors ligne** pour l'enseignement, dans l'esprit de Packet T
 schéma logique et physique, configuration d'équipements, terminal en ligne de commande, paquets animés, exercices.
 Pensé pour les étudiants **TSR (bac+2)** et **ASR (bac+3)**.
 
-> Version **2.12** · Windows (version portable, aucune installation)
+> Version **2.13** · Windows (version portable, aucune installation)
 > Usage pédagogique — voir [LICENCE.md](LICENCE.md)
+
+![Icône de NetStudio](icon.svg)
 
 ## Télécharger
 
-Récupérez le fichier **`NetStudio 2.12.0.exe`** dans la section
+Récupérez le fichier **`NetStudio 2.13.0.exe`** dans la section
 **Releases** de ce dépôt (ou à l'emplacement indiqué par votre enseignant).
 
 > Le nom exact du fichier suit la version : `NetStudio <version>.exe`.
@@ -38,6 +40,7 @@ administrateur.
 - **Vue logique et vue physique** : zones (salles), longueur des câbles avec alerte au-delà de la limite,
   baies et alimentation.
 - **Configuration** : panneau graphique et **terminal en ligne de commande**.
+- **Sécurité des ports** : port-security (adresses MAC autorisées, modes protect / restrict / shutdown, état err-disabled).
 - **Paquets animés** : visualisation d'un ping saut après saut.
 - **Supervision** et **Problèmes** : test de joignabilité et contrôle automatique des erreurs de configuration.
 - **Exemples et exercices** : schémas corrigés ou à valider, avec missions et objectifs.
