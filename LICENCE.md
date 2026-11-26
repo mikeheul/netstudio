@@ -1,6 +1,6 @@
 # Licence d'utilisation pédagogique — NetStudio
 
-**NetStudio v2.12**
+**NetStudio v2.13**
 © 2026 Mickaël MURMANN. Tous droits réservés.
 
 ## 1. Objet
