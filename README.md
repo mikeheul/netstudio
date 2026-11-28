@@ -1,3 +1,5 @@
+![NetStudio](netstudio-banniere.svg)
+
 # NetStudio
 
 Simulateur réseau **hors ligne** pour l'enseignement, dans l'esprit de Packet Tracer :
